@@ -1,0 +1,86 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Card container */
+.converter {
+    background: #ffffff;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title */
+.converter h2 {
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+/* Inputs */
+.converter input,
+.converter select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Dropdown row */
+.currency-row {
+    display: flex;
+    gap: 10px;
+}
+
+.currency-row select {
+    flex: 1;
+}
+
+/* Button */
+.converter button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #1d3557;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.converter button:hover {
+    background: #457b9d;
+}
+
+/* Result */
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+
+/* Footer */
+.footer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
